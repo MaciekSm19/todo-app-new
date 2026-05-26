@@ -1,0 +1,6 @@
+-- V1__INIT_TASKS_TABLE.sql
+CREATE TABLE IF NOT EXISTS tasks (
+    id INTEGER AUTO_INCREMENT PRIMARY KEY,
+    description VARCHAR(255),
+    done BOOLEAN
+);

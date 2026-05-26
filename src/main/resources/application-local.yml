@@ -1,0 +1,11 @@
+spring:
+  h2:
+    console:
+      enabled: true
+      path: '/console'
+  datasource:
+    url: 'jdbc:h2:file:/Users/macieksmieja/IdeaProjects/todo-app-new/todo-db;AUTO_SERVER=TRUE'
+  jpa:
+    hibernate:
+      ddl-auto: validate
+task.template.allowMultipleTasks: false
