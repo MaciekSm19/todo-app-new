@@ -14,5 +14,6 @@ public interface TaskRepository {
     Page<Task> findAll(Pageable page);
     Task save(Task entity);
     boolean existsById(Integer id);
+    boolean existsByDoneIsFalseAndGroup_Id(Integer groupId);
 }
 

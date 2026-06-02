@@ -4,7 +4,7 @@ spring:
       enabled: true
       path: '/console'
   datasource:
-    url: 'jdbc:h2:file:/Users/macieksmieja/IdeaProjects/todo-app-new/todo-db;AUTO_SERVER=TRUE'
+    url: 'jdbc:h2:file:/Users/macieksmieja/IdeaProjects/todo-app-new/todo-db'
   jpa:
     hibernate:
       ddl-auto: validate
